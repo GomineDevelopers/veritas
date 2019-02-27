@@ -1,0 +1,86 @@
+.article-title {
+  font-size: 16px;
+  color: #333333;
+  letter-spacing: 0;
+  width: 80vw;
+  text-align: center;
+  margin: 5vh auto;
+  font-weight: 600;
+}
+
+.article-title::after {
+  border-radius: 25px 25px 25px 25px;
+  bottom: -16px;
+  color: #1c1d1f;
+  content: "";
+  display: block;
+  right: -12px;
+  float: right;
+  font-size: 24pt;
+  background: url('../css/images/qoate.png');
+  background-size: 100% 100%;
+  line-height: 42px;
+  position: relative;
+  text-align: center;
+  transition: all 350ms ease 0s;
+  width: 10px;
+  height: 9px;
+  transform: rotate(180deg);
+}
+
+.article-title::before {
+  border-radius: 25px 25px 25px 25px;
+  color: #1c1d1f;
+  content: " ";
+  background: url('../css/images/qoate.png');
+  background-size: 100% 100%;
+  left: -12px;
+  display: block;
+  float: left;
+  font-size: 24pt;
+  line-height: 42px;
+  position: relative;
+  text-align: center;
+  top: 0;
+  transition: all 350ms ease 0s;
+  width: 10px;
+  height: 9px;
+
+}
+
+/* 表格 */
+.table-wrapper {
+  margin: 6vh 2vh;
+}
+
+.contact-table {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.contact-row .contact-head {
+  width: 33%;
+  height: 5vh;
+  font-weight: normal;
+  background: #E1E1E1;
+  font-size: 14px;
+  color: #333333;
+  padding: 5px;
+}
+
+.contact-row .contact-td {
+  height: 5vh;
+  padding: 5px;
+  color: #333333;
+}
+
+.contact-row {
+  border-bottom: 1px solid #ddd;
+}
+
+.description {
+  margin: 2vh;
+  color: #666666;
+  letter-spacing: 0;
+}
