@@ -1,0 +1,21 @@
+.button{
+    height: 2.35rem;
+    line-height: 2.25rem;
+    border-radius: 1.25rem;
+}
+.button-danger {
+    border-color: #BC5D6B;
+    color: #BC5D6B;
+}
+.content-padded {
+    margin: 1.5rem;
+    color: #6d6d72;
+    margin-top: 4.5rem;
+}
+.content-block {
+    padding: 1.75rem;
+}
+.title{
+  padding: 1rem;
+  font-size: 1.3rem;
+}

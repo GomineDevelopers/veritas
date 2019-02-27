@@ -1,0 +1,46 @@
+#all{
+  background-image: url(../images/back.png);
+  -moz-background-size:100% 100%; background-size:100% 100%;
+}
+#logo img{
+  width: 4rem;
+}
+#speak{
+  padding-left: 0.8rem;
+  box-sizing: border-box;
+  width: 13rem;
+}
+.notdiv{
+    margin-top: 0.5rem;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    width: 4.8rem;
+    height: 4.8rem;
+}
+#nine{
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.notdiv p{
+  font-size: 0.6rem;
+  margin-top: 0.15rem;
+}
+.notdiv  img{
+  height: 2.1rem;
+  color: #fff;
+  margin-top: 1rem;
+}
+.content-block{
+  margin-top: 0.9rem;
+}
+.speak{
+  margin-top: -0.6rem;
+}
+.row .col-5{
+  height: 1rem;
+}
+#nine .row{
+  margin-left: 0rem; !important;
+}
