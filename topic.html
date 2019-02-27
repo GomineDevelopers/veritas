@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="./dist/css/sm.min.css">
     <link rel="stylesheet" href="./dist/css/sm-extend.min.css">
-    <link rel="stylesheet" href="./dist/css/peers.css">
+    <link rel="stylesheet" href="./dist/css/topic.css">
 
   </head>
   <body>
@@ -20,13 +20,15 @@
         <!-- 单个page ,第一个.page默认被展示-->
         <div class="page">
             <!-- 这里是页面内容区 -->
-            <h1 class="title"><img src="./dist/images/title.png">&nbsp;同行论道&nbsp;<img src="./dist/images/title.png"></h1>
-            <div class="content-padded">
-                  <p>我们邀请行业重要客户参加此次活动，同时Veritas鼓励客户之间交流畅谈，为同行业互不认识的业内人士提供交流的机会和平台。您可点击“发起话题”按钮输入您想讨论的话题并邀请嘉宾共同参与，或也可点击“选组加入”选择话题参与讨论。</p>   
+            <div class="padded">
+                <p>请输入您要发布的话题：</p>
+                <textarea  rows="2" name="text"></textarea>
+                <p>您的话题介绍：</p>
+                <textarea  rows="5" name="text"></textarea>
             </div>
+            
             <div class="content-block">
-                <p><a href="#" class="button button-danger">发起话题</a></p>
-                <p><a href="#" class="button button-danger">选组加入</a></p>
+                <p><a href="#" class="button button-danger">发布</a></p>
             </div>
         </div>
         <img id="logo" src="./dist/images/logo.png">

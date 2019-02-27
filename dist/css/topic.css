@@ -5,23 +5,9 @@
 }
 .button-danger {
     border-color: #CA737E;
-    color: #CA737E;
-}
-.content-padded {
-    margin: 1.5rem;
-    color: #6d6d72;
-    margin-top: 4.5rem;
-}
-.content-block {
-    padding: 1.75rem;
-}
-.title{
-    margin: 0rem;
-    padding: 1rem;
-    font-size: 1.3rem;
-}
-.title img{
-    height: 1rem;
+    color: #FFF;
+    background-color:#CA737E; 
+    font-size: 0.9rem;
 }
 .page{
     background-color: #fff;
@@ -36,4 +22,21 @@
     position: relative;
     top: 93%;
     left: 72%;
+}
+textarea{
+    border-color:#999999;
+    border-radius: 4px;
+    width: 100%;
+    overflow: auto;
+    word-break: break-all; 
+    margin-top: -0.5rem;
+}
+.padded{
+    padding: 0rem 2rem;
+}
+.padded p{  
+    color: #333333;
+}
+.content-block {
+    padding: 0px 2rem;
 }
