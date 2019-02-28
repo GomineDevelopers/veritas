@@ -118,6 +118,10 @@ input:focus {
 
 .img-wrapper {
   position: absolute;
-  bottom: 0;
-  right: 2vh;
+  bottom: 2vh;
+  right: 3vh;
+}
+
+.img-wrapper img {
+  width: 90px;
 }
