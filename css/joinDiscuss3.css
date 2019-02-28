@@ -69,6 +69,15 @@
   padding: 5px;
 }
 
+.contact-row :nth-child(1) {
+  width: 56%;
+  height: 5vh;
+  font-weight: normal;
+  font-size: 14px;
+  color: #333333;
+  padding: 5px;
+}
+
 .contact-row .contact-td {
   height: 5vh;
   padding: 5px;
