@@ -1,0 +1,55 @@
+.top_wanyan{
+    position: relative;
+}
+
+.top_title{
+    position: absolute;
+    left: 50%;
+    margin-left:-55px;
+    z-index: 9999;
+    top: 3vh;
+}
+
+.top_title img{
+    height: 16px;
+}
+
+.top_title span{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.img-wrapper-top{
+    position: absolute;
+    top: 3vh;
+}
+
+.img-wrapper-top img{
+    background-size: 100% 100%;
+    width: 100vw;
+}
+
+.middle_wanyan{
+    position: absolute;
+    width: 70vw;
+    left: 50%;
+    margin-left: -35vw;
+}
+
+.middle_wanyan1{
+    top: 24vh;
+}
+
+.middle_wanyan2{
+    top: 32vh;
+}
+
+.middle_wanyan3{
+    top: 40vh;
+}
+.middle_wanyan .button{
+    color: #D7B10C;
+    border: 1px solid #D7B10C;
+    height: 2.2rem;
+    line-height: 2.1rem
+}

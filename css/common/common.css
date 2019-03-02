@@ -116,6 +116,15 @@ input:focus {
   background-size: 100% 100%;
 }
 
+.bottom_wanyan {
+  position: absolute;
+  width: 100vw;
+  bottom: 0px;
+  height: 28vh;
+  background: url('../images/wanyan2.png');
+  background-size: 100% 100%;
+}
+
 .img-wrapper {
   position: absolute;
   bottom: 2vh;

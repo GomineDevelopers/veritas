@@ -1,0 +1,34 @@
+.top_wanyan{
+    margin: 3vh 4vw;
+}
+
+.wanyan_title{
+    font-size: 17px;
+    font-weight: bold;
+    padding-bottom: 2vh;
+}
+
+.problem{
+    padding-bottom: 4vh;
+}
+
+.answer div{
+    padding-bottom: 3vh;
+    display: flex;
+    align-items: center;
+}
+
+.submit{
+    width: 80vw;
+    position: absolute;
+    bottom: 28vh;
+    left: 50%;
+    margin-left: -40vw;
+}
+
+.submit .button.button-fill{
+    border: 1px solid #D7B10C;
+    background:#D7B10C;
+    height: 2.2rem;
+    line-height: 2.1rem
+}
